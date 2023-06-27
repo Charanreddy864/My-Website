@@ -177,3 +177,25 @@ margin-top: 20px;
 {
   opacity: 90%;
 }
+.mrs{
+  margin-right: 0px;
+}
+.popup{
+  border:solid 1px black;
+  transform: translate(-50%,-50%) scale(0.1);
+  margin-top: 100px;
+  width:200px;
+  text-align: left;
+  position: absolute;
+  display:inline-block;
+  background-color:#033b9c;
+  border-radius: 7px;
+  color: white;
+  transition: transform 0.4s;
+  visibility: hidden;
+}
+.popped
+{
+  transform: translate(-50%,-50%) scale(1);
+  visibility: visible;
+}

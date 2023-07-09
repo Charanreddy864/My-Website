@@ -199,3 +199,60 @@ margin-top: 20px;
   transform: translate(-50%,-50%) scale(1);
   visibility: visible;
 }
+nav{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 85px;
+}
+.logo{
+    width:40px;
+    height:40px;
+    margin:15px 0 37px 15px;
+}
+.navlinks{
+  display: flex;
+  flex-direction: row;
+}
+.nav-item{
+  color: white;
+  margin:15px;
+}
+.navbar ul{
+  list-style-type: none;
+}
+.mobile i{
+  color: white;
+  margin:20px 20px 0px 0px;
+}
+.mobile
+{
+  display:none;
+}
+@media screen and (max-width:769px){
+  .navlinks{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-start;
+        position: fixed;
+        top:60px;
+        right:-300px;
+        width:200px;
+        padding-bottom: 30px;
+        background-color: black;
+        transition: 0.3s ease-in-out;
+        z-index: 9999;
+    }
+    .active{
+        right:-20px;
+    }
+    .navlinks li{
+        margin:10px;
+    }
+    .mobile{
+        display: block;
+        cursor: pointer;
+    }
+
+}

@@ -10,9 +10,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@200&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <a class="navbar-brand" href=""><img src="Images\brand.jfif" alt="icon" width="40px"></a>
-  <ul class="navbar-nav ms-auto">
+  <nav>
+  <img class="logo" src="Images/brand.jfif" alt="logo"></img>
+  <div class="navbar">
+  <ul class="navlinks">
     <li class="nav-item">
       <button class="nav-link home" onclick="scrolldown('first')">Home</button>
     </li>
@@ -26,6 +27,10 @@
       <button class="nav-link contact-link" onclick="scrolldown('fourth')">Contact</button>
     </li>
   </ul>
+  </div>
+  <div class="mobile">
+  <i class="fas fa-bars" onclick={toggleMenu()}></i>
+  </div>
 </nav>
 <div class="first">
 <img class="top-cloud" src="Images/cloud.png" alt="cloud-png">

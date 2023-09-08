@@ -2,13 +2,21 @@ function scrolldown(className) {
   var div = document.getElementsByClassName(className);
     div[0].scrollIntoView({ behavior: "smooth" });
 }
-function showPopup()
+function showMrsPopup()
 {
-    document.getElementsByClassName("popup")[0].classList.add("popped");
+    document.getElementsByClassName("mrspop")[0].classList.add("popped");
 }
-function hidePopup()
+function hideMrsPopup()
 {
-    document.getElementsByClassName("popup")[0].classList.remove("popped");
+    document.getElementsByClassName("mrspop")[0].classList.remove("popped");
+}
+function showBoardPopup()
+{
+    document.getElementsByClassName("boardpop")[0].classList.add("popped");
+}
+function hideBoardPopup()
+{
+    document.getElementsByClassName("boardpop")[0].classList.remove("popped");
 }
 let expanded = false;
 function toggleMenu() {

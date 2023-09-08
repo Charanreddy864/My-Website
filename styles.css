@@ -180,13 +180,29 @@ margin-top: 20px;
 .mrs{
   margin-right: 0px;
 }
-.popup{
+.mrspop{
   border:solid 1px black;
   transform: translate(-50%,-50%) scale(0.1);
   margin-top: 100px;
   width:200px;
   text-align: left;
   position: absolute;
+  right:100px;
+  display:inline-block;
+  background-color:#033b9c;
+  border-radius: 7px;
+  color: white;
+  transition: transform 0.4s;
+  visibility: hidden;
+}
+.boardpop{
+  border:solid 1px black;
+  transform: translate(-50%,-50%) scale(0.1);
+  margin-top: 100px;
+  width:200px;
+  text-align: left;
+  position: absolute;
+  left:700px;
   display:inline-block;
   background-color:#033b9c;
   border-radius: 7px;

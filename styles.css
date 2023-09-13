@@ -47,7 +47,7 @@ width:150px;
 {
   text-align: left;
 }
-.fourth
+.fifth
 {
   background-color: #66BFBF;
   margin-top: 50px;
@@ -58,7 +58,7 @@ width:150px;
   margin:auto;
   padding-bottom:30px;
   width:50%;
-  font-family: Helvetica, sans-serif;
+  font-family: cursive;
 }
 .skills
 {
@@ -160,6 +160,14 @@ margin-top: 20px;
 {
   width: 400px;
   margin:50px;
+  border: solid 1px black;
+}
+.galcam{
+    height:200px;
+}
+.excel{
+    height:200px;
+
 }
 .contact
 {
@@ -215,6 +223,7 @@ margin-top: 20px;
   transform: translate(-50%,-50%) scale(1);
   visibility: visible;
 }
+/* Navbar */
 nav{
   background-color: black;
   display: flex;
